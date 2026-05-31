@@ -4,3 +4,4 @@ pycryptodome
 protobuf-decoder
 rich
 protobuf
+requests
