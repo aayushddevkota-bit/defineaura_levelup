@@ -1,0 +1,6 @@
+aiohttp
+urllib3
+pycryptodome
+protobuf-decoder
+rich
+protobuf
