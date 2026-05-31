@@ -5,3 +5,4 @@ protobuf-decoder
 rich
 protobuf
 requests
+google-play-scraper
