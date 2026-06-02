@@ -326,7 +326,7 @@ async def auto_start_loop(team_code: str, uid: int, chat_id: int, chat_type: int
             # Leave squad
             await send_packet(None, online_writer, 'Online',
                               await leave_squad_packet(key, iv, region))
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(8)
 
         except Exception as e:
             console.log(f"[red]Auto-loop error: {e}[/]")
